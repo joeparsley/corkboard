@@ -1,0 +1,34 @@
+
+body {
+  background-image: url(../img/cork-board.jpg);
+  position: relative;
+  height: 100vh;
+}
+#polaroid-container {
+  height: 800px;
+  /*border: 4px solid green;*/
+  text-align: center;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ #polar {
+  height: 800px;
+  width: inherit;
+  position: relative;
+}
+#warrior {
+  height: 515px;
+  width: 545px;
+  margin: auto;
+  position: absolute;
+  right: 145px;
+  top: 90px;
+}
+#thumb {
+  position: absolute;
+  bottom: 575px;
+  right: 300px;
+}
